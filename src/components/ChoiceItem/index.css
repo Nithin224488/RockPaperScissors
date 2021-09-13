@@ -1,0 +1,23 @@
+.choice-item {
+  cursor: pointer;
+  margin: 50px;
+}
+@media screen and (max-width: 768px) {
+  .choice-item {
+    cursor: pointer;
+    margin: 20px;
+  }
+}
+.choice-button {
+  border: none;
+  outline: none;
+  background-color: #223a5f;
+}
+.choice-image {
+  width: 170px;
+}
+@media screen and (max-width: 768px) {
+  .choice-image {
+    width: 150px;
+  }
+}
